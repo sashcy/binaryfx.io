@@ -590,6 +590,8 @@ table {
 .language {
   text-align: right;
   margin-top: 15px; }
+  .language a {
+    margin-left: 5px; }
 
 .ft-icon {
   font-family: 'Roboto', sans-serif;
