@@ -691,6 +691,16 @@ table {
 .col-ico {
   margin: 20px 0; }
 
+.col-label {
+  text-align: left;
+  padding-left: 20px; }
+
+.dark-grey-bg {
+  background: #eaeaea; }
+
+.right-white-border {
+  border-right: 1px solid #ffffff; }
+
 /* stylelint-enable color-no-hex */
 @media screen and (max-width: 1024px) {
   .lg-center {
