@@ -51,20 +51,17 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     </head>
     <body>
-        <amp-analytics type=”googleanalytics”>
+        <amp-analytics type="gtag" data-credentials="include">
             <script type="application/json">
-                {
-                    "vars": {
-                      "account": "UA-130119267-1"  
-                    },
-                    "triggers": {
-                      "trackPageview": {  
-                        "on": "visible",
-                        "request": "pageview"
-                      }
-                    }
+            {
+              "vars" : {
+                "gtag_id": "UA-130119267-1",
+                "config" : {
+                  "UA-130119267-1": { "groups": "default" }
                 }
-            </script> 
+              }
+            }
+            </script>
         </amp-analytics>
         <div class="header">
             <div class="topbar">
