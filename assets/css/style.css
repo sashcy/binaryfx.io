@@ -453,6 +453,9 @@ h4 {
 .white-bg-color {
   background-color: #ffffff; }
 
+.content-color {
+  color: #000000; }
+
 .content-inverse-color, .content-inverse-color:visited {
   color: #ffffff; }
 
@@ -652,7 +655,7 @@ table {
   font-weight: 400;
   font-size: 18px;
   line-height: 40px;
-  background-color: #e98024;
+  background-color: #2a3052;
   color: #ffffff;
   margin-top: -20px;
   padding: 0px;
