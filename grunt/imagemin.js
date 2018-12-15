@@ -1,15 +1,16 @@
 var mozjpeg = require('imagemin-mozjpeg');
 module.exports = {
     dynamic: { 
-        options: {
-            optimizationLevel: 2,
-            svgoPlugins: [{ removeViewBox: false }],
-            use: [mozjpeg()]
-          },
+      options: {
+        optimizationLevel: 7,
+        progressive: false,
+        svgoPlugins: [{ removeViewBox: false }],
+        use: [mozjpeg({fastCrush: true, quality: 60, smooth: 100})]
+      },
         files: [{
           expand: true,
           cwd: 'src/assets/',
-          src: ['images/*.{png,jpg,gif}'],
+          src: ['images/**/*.{png,jpg,jpeg,gif}'],
           dest: 'dist/assets'
         }]
       }
