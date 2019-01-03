@@ -585,8 +585,8 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.6)), to(rgba(42, 48, 82, 0.3))), url("/assets/images/header-img-min.jpg") no-repeat;
-  background: linear-gradient(rgba(42, 48, 82, 0.6), rgba(42, 48, 82, 0.3)), url("/assets/images/header-img-min.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a3052), to(rgba(42, 48, 82, 0.7))), url("/assets/images/forex-cfd trading.jpeg") no-repeat;
+  background: linear-gradient(#2a3052, rgba(42, 48, 82, 0.7)), url("/assets/images/forex-cfd trading.jpeg") no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -626,8 +626,8 @@ table {
   letter-spacing: -1px; }
 
 .button-xl {
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 400;
   padding: 15px 40px; }
 
 .cta {
